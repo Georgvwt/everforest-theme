@@ -1,0 +1,17 @@
+{
+  "name": "degoog-everforest-theme",
+  "description": "Everforest theme for degoog.",
+  "repo-image": "",
+  "author": "Georgvwt",
+  "plugins": [],
+  "themes": [
+    {
+      "path": "themes/everforest",
+      "name": "Everforest",
+      "description": "Warm green forest palette. Dark Hard/Medium/Soft and Light Hard/Medium/Soft.",
+      "version": "2.0.0"
+    }
+  ],
+  "engines": []
+}
+```
