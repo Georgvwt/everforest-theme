@@ -1,4 +1,4 @@
-<h1 align="center">Georgvwt degoog stuff</h1>
+<h1 align="center">Georgvwt's degoog stuff</h1>
 
 <p align="center">
   Random themes & plugins for <a href="https://github.com/fccview/degoog">degoog</a>.
@@ -27,8 +27,6 @@ Warm green forest palette inspired by [sainnhe/everforest](https://github.com/sa
 </details>
 
 </details>
-
----
 
 <details>
 <summary>Plugins</summary>
