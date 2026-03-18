@@ -26,9 +26,9 @@ Warm green forest palette inspired by [sainnhe/everforest](https://github.com/sa
 
 </details>
 
----
-
 </details>
+
+---
 
 <details>
 <summary>Plugins</summary>
