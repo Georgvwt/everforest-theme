@@ -12,7 +12,7 @@
 ### Everforest
 
 <p align="center">
-  <img src="themes/everforest/screenshots/1.png" alt="Everforest Theme" width="120"/>
+  <img src="logoev.png" alt="Everforest Theme" width="120"/>
 </p>
 
 Warm green forest palette inspired by [sainnhe/everforest](https://github.com/sainnhe/everforest). Available in 6 variants: Dark Hard, Dark Medium, Dark Soft, Light Hard, Light Medium, Light Soft.
@@ -36,12 +36,5 @@ Warm green forest palette inspired by [sainnhe/everforest](https://github.com/sa
 ### Reddit Answers
 
 Shows top comments from Reddit threads above search results. When a search result includes a Reddit link, the plugin fetches and displays the highest-voted replies in a card above the results.
-
-</details>
-
----
-
-<details>
-<summary>Engines</summary>
 
 </details>
