@@ -1,7 +1,7 @@
 <h1 align="center">Georgvwt degoog stuff</h1>
 
 <p align="center">
-  Themes, plugins and engines for <a href="https://github.com/fccview/degoog">degoog</a>.
+  Random themes & plugins for <a href="https://github.com/fccview/degoog">degoog</a>.
 </p>
 
 ---
