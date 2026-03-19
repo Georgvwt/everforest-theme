@@ -33,7 +33,7 @@ Warm green forest palette inspired by [sainnhe/everforest](https://github.com/sa
 <details>
 <summary>Plugins</summary>
 
-### Reddit Answers (DOESN'T WORK PROPERLY, IM FIXING IT RN)
+### Reddit Answers
 
 Shows top comments from Reddit threads above search results. When a search result includes a Reddit link, the plugin fetches and displays the highest-voted replies in a card above the results.
 
