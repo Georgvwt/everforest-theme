@@ -1,6 +1,0 @@
-{
-  "name": "Reddit Answers",
-  "description": "Shows the top Reddit post and its two best comments for any search query, displayed above search results.",
-  "version": "1.0.0",
-  "type": "slot"
-}
