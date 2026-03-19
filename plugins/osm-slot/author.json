@@ -1,6 +1,0 @@
-{
-  "name": "OpenStreetMap Slot",
-  "description": "Interactive map above search results for location queries. Uses Nominatim geocoding and Leaflet.",
-  "version": "1.0.0",
-  "type": "slot"
-}
