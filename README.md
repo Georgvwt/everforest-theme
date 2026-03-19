@@ -40,8 +40,8 @@ Shows top comments from Reddit threads above search results. When a search resul
 <details>
 <summary>Screenshots</summary>
 
-![Reddit Answers](plugins/reddit-slot/screenshots/1.png)
 ![Reddit Answers](plugins/reddit-slot/screenshots/2.png)
+![Reddit Answers](plugins/reddit-slot/screenshots/1.png)
 
 </details>
 
