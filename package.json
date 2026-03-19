@@ -8,7 +8,7 @@
       "path": "plugins/reddit-slot",
       "name": "Reddit Answers",
       "description": "When search results include Reddit threads, shows the top comments above results.",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "type": "slot"
     }
   ],
@@ -17,7 +17,7 @@
       "path": "themes/everforest",
       "name": "Everforest",
       "description": "Warm green forest palette. Dark Hard/Medium/Soft and Light Hard/Medium/Soft.",
-      "version": "2.0.0"
+      "version": "3.0.0"
     }
   ],
   "engines": []
