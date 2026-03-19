@@ -10,6 +10,13 @@
       "description": "When search results include Reddit threads, shows the top comments above results.",
       "version": "1.0.0",
       "type": "slot"
+    },
+    {
+      "path": "plugins/osm-slot",
+      "name": "OpenStreetMap",
+      "description": "Shows an interactive map above search results for location-related queries.",
+      "version": "1.0.0",
+      "type": "slot"
     }
   ],
   "themes": [
