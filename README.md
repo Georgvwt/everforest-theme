@@ -45,8 +45,6 @@ Shows top comments from Reddit threads above search results. When a search resul
 
 </details>
 
----
-
 ### OpenStreetMap
 
 Shows an interactive map above search results for location-related queries. Uses Nominatim geocoding and Leaflet — no API key required.
