@@ -1,0 +1,246 @@
+/* ── Dictionary Slot ──────────────────────────────────────── */
+
+.dslot-wrap {
+  max-width: 680px;
+  margin-bottom: 12px;
+  padding: 0;
+}
+
+.dslot-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.dslot-icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.dslot-header-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.dslot-word-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.dslot-word {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.dslot-phonetic {
+  font-size: 15px;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.dslot-audio-btn {
+  font-size: 13px;
+  padding: 3px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border-light);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.dslot-audio-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.dslot-divider {
+  height: 1px;
+  background: var(--border-light);
+  margin-bottom: 12px;
+}
+
+.dslot-section {
+  margin-bottom: 14px;
+}
+
+.dslot-section-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.dslot-defs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dslot-def-row {
+  display: flex;
+  gap: 10px;
+}
+
+.dslot-def-num {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  min-width: 16px;
+  padding-top: 1px;
+  flex-shrink: 0;
+}
+
+.dslot-pos {
+  font-size: 13px;
+  font-style: italic;
+  color: var(--primary);
+  margin-right: 6px;
+}
+
+.dslot-def-text {
+  font-size: 15px;
+  color: var(--text-primary);
+  line-height: 1.55;
+}
+
+.dslot-example {
+  font-size: 14px;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
+.dslot-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.dslot-tags-box {
+  background: var(--bg);
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  padding: 9px 11px;
+}
+
+.dslot-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.dslot-tag {
+  font-size: 13px;
+  padding: 3px 9px;
+  border-radius: 5px;
+  border: 1px solid var(--border-light);
+  color: var(--text-primary);
+  background: var(--bg-light);
+}
+
+.dslot-tag-empty {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.dslot-etymology {
+  font-size: 14px;
+  color: var(--text-primary);
+  margin: 0;
+  line-height: 1.55;
+}
+
+@media (max-width: 480px) {
+  .dslot-grid { grid-template-columns: 1fr; }
+}
+
+.dslot-tag[data-word] {
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, transform 0.1s;
+  /* Larger tap target on mobile */
+  padding: 5px 11px;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.dslot-tag[data-word]:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  transform: translateY(-1px);
+}
+
+.dslot-tag[data-word]:active {
+  transform: scale(0.95);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.dslot-audio-playing {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.dslot-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  padding: 2px 8px 2px 6px;
+  border-radius: 5px;
+  border: 0.5px solid var(--border-light);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-family: var(--font-sans, sans-serif);
+  transition: color .15s, border-color .15s;
+  margin-right: 6px;
+  flex-shrink: 0;
+}
+
+.dslot-back-btn:hover {
+  color: var(--text-primary);
+  border-color: var(--border);
+}
+
+/* Not found toast */
+.dslot-toast {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 0.5px solid var(--border-light);
+  background: var(--bg);
+  font-size: 12px;
+  color: var(--text-secondary);
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.dslot-toast strong {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.dslot-toast-in {
+  opacity: 1;
+  transform: translateY(0);
+}
