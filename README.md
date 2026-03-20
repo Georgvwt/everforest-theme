@@ -73,6 +73,7 @@ Shows word definitions, pronunciation, synonyms, antonyms and etymology above se
 
 Bang command that translates text using the MyMemory API — no API key required. Use !translate <text> to translate, with auto-detection of the source language. For single-word translations, a side panel appears with audio pronunciation, usage examples, and synonyms for both languages.
 Usage: `!translate hello`, `!translate hello to:fr`
+
 <details>
 <summary>Screenshots</summary>
 
@@ -84,6 +85,7 @@ Usage: `!translate hello`, `!translate hello to:fr`
 ### Cool Weather
 
 Bang command that shows current weather and a 7-day forecast for any city. Uses Nominatim for geocoding and Open-Meteo for weather data — no API key required. Features cool animated weather icons, hourly breakdown on tap, and a sunrise/sunset progress bar.
+Usage: `!weather New York`, `!weather Tokyo`
 
 <details>
 <summary>Screenshots</summary>
