@@ -69,15 +69,15 @@ Shows word definitions, pronunciation, synonyms, antonyms and etymology above se
 
 </details>
 
-### OpenStreetMap
+### Translate
 
-Shows the map of the place you've typed in the search bar, works always on the names of the cities etc but 100% trigger with queries with word `map`
-
+Bang command that translates text using the MyMemory API — no API key required. Use !translate <text> to translate, with auto-detection of the source language. For single-word translations, a side panel appears with audio pronunciation, usage examples, and synonyms for both languages.
+Usage: `!translate hello`, `!translate привіт to:en`
 <details>
 <summary>Screenshots</summary>
 
-![Dictionary](plugins/osm-slot/screenshots/2.png)
-![Dictionary](plugins/osm-slot/screenshots/1.png)
+![Dictionary](plugins/translate-command/screenshots/2.png)
+![Dictionary](plugins/translate-command/screenshots/1.png)
 
 
 </details>
