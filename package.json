@@ -34,7 +34,7 @@
     },
     {
       "path": "plugins/weather-slot",
-      "name": "Weather",
+      "name": "Cool Weather",
       "description": "Shows current weather, 7-day forecast and hourly breakdown with animated icons. Usage: !weather <city>.",
       "version": "1.0.1",
       "type": "command"
