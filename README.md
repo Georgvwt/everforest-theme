@@ -59,7 +59,7 @@ Shows an interactive map above search results for location-related queries. Uses
 
 ### Dictionary
 
-Shows word definitions, pronunciation, synonyms, antonyms `(you can click on them and see their definition, and sadly clicking doesn't work on phone version of degoog at this moment, will try to fix this)` and etymology above search results. Uses the Free Dictionary API — no API key required. Trigger with queries like `define ephemeral` or `meaning of fleeting`.
+Shows word definitions, pronunciation, synonyms, antonyms `(you can click on them and see their definition, maybe be a chance that it will not work on the mobile, but its not 100%)` and etymology above search results. Uses the Free Dictionary API — no API key required. Trigger with queries like `define ephemeral` or `meaning of fleeting`.
 
 <details>
 <summary>Screenshots</summary>
