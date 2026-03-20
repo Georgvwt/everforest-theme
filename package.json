@@ -31,6 +31,13 @@
       "description": "Translate text using MyMemory API. Usage: !translate <text>. Shows audio, examples and synonyms for single words.",
       "version": "1.0.0",
       "type": "command"
+    },
+    {
+      "path": "plugins/weather-slot",
+      "name": "Weather",
+      "description": "Shows current weather, 7-day forecast and hourly breakdown with animated icons. Usage: !weather <city>.",
+      "version": "1.0.1",
+      "type": "command"
     }
   ],
   "themes": [
