@@ -72,7 +72,7 @@ Shows word definitions, pronunciation, synonyms, antonyms and etymology above se
 ### Translate
 
 Bang command that translates text using the MyMemory API — no API key required. Use !translate <text> to translate, with auto-detection of the source language. For single-word translations, a side panel appears with audio pronunciation, usage examples, and synonyms for both languages.
-Usage: `!translate hello`, `!translate привіт to:en`
+Usage: `!translate hello`, `!translate hello to:fr`
 <details>
 <summary>Screenshots</summary>
 
