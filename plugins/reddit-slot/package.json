@@ -1,0 +1,7 @@
+{
+  "name": "reddit-slot",
+  "version": "1.0.0",
+  "description": "Shows the top Reddit post and two best comments for any search query",
+  "type": "slot",
+  "author": "degoog-plugin"
+}
