@@ -69,4 +69,17 @@ Shows word definitions, pronunciation, synonyms, antonyms and etymology above se
 
 </details>
 
+### OpenStreetMap
+
+Shows the map of the place you've typed in the search bar, works always on the names of the cities etc but 100% trigger with queries with word `map`
+
+<details>
+<summary>Screenshots</summary>
+
+![Dictionary](plugins/osm-slot/screenshots/2.png)
+![Dictionary](plugins/osm-slot/screenshots/1.png)
+
+
+</details>
+
 </details>
