@@ -40,8 +40,8 @@ Shows top comments from Reddit threads above search results. When a search resul
 <details>
 <summary>Screenshots</summary>
 
-![Reddit Answers](plugins/reddit-slot/screenshots/2.png)
 ![Reddit Answers](plugins/reddit-slot/screenshots/1.png)
+![Reddit Answers](plugins/reddit-slot/screenshots/2.png)
 
 </details>
 
@@ -52,8 +52,8 @@ Shows an interactive map above search results for location-related queries. Uses
 <details>
 <summary>Screenshots</summary>
 
-![OpenStreetMap](plugins/osm-slot/screenshots/2.png)
 ![OpenStreetMap](plugins/osm-slot/screenshots/1.png)
+![OpenStreetMap](plugins/osm-slot/screenshots/2.png)
 
 </details>
 
@@ -64,8 +64,8 @@ Shows word definitions, pronunciation, synonyms, antonyms `(you can click on the
 <details>
 <summary>Screenshots</summary>
 
-![Dictionary](plugins/define-slot/screenshots/2.png)
 ![Dictionary](plugins/define-slot/screenshots/1.png)
+![Dictionary](plugins/define-slot/screenshots/2.png)
 
 </details>
 
@@ -77,8 +77,8 @@ Usage: `!translate hello`, `!translate hello to:fr`
 <details>
 <summary>Screenshots</summary>
 
-![Dictionary](plugins/translate-command/screenshots/2.png)
 ![Dictionary](plugins/translate-command/screenshots/1.png)
+![Dictionary](plugins/translate-command/screenshots/2.png)
 
 </details>
 
@@ -90,8 +90,8 @@ Usage: `!weather New York`, `!weather Tokyo`
 <details>
 <summary>Screenshots</summary>
 
-![Dictionary](plugins/weather-slot/screenshots/2.png)
 ![Dictionary](plugins/weather-slot/screenshots/1.png)
+![Dictionary](plugins/weather-slot/screenshots/2.png)
 
 
 </details>
