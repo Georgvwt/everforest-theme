@@ -93,7 +93,21 @@ Usage: `!weather New York`, `!weather Tokyo`
 ![Dictionary](plugins/weather-slot/screenshots/1.png)
 ![Dictionary](plugins/weather-slot/screenshots/2.png)
 
+</details>
 
+### Currency
+
+Currency converter with live exchange rates. Supports natural language queries like `100 usd to eur`, `50 dollars in euros`, or bang command `!currency 100 USD EUR`. Features interactive currency picker, quick amount buttons, popular pairs grid, and smooth animations. Uses Frankfurter API for fiat currencies and CoinGecko for crypto (BTC, ETH) — no API key required.
+
+<details>
+<summary>Screenshots</summary>
+
+![Currency](plugins/currency-slot/screenshots/1.png)
+![Currency](plugins/currency-slot/screenshots/2.png)
+
+</details>
+
+</details>
 </details>
 
 </details>
