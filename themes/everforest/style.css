@@ -1,12 +1,3 @@
-/* =============================================================
- *  Everforest theme for degoog
- *  Variants: dark-hard, dark-medium (default), dark-soft,
- *            light-hard, light-medium, light-soft
- *  Palette ref: https://github.com/sainnhe/everforest
- *  ============================================================= */
-
-/* ── Default (dark-medium) ─────────────────────────────────── */
-
 :root,
 [data-theme="dark"] {
   --ef-bg0:    #2d353b;
@@ -55,7 +46,6 @@
   --warning:         var(--ef-yellow);
   --success:         var(--ef-green);
 
-  /* Timing functions */
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
   --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
@@ -108,10 +98,6 @@
   --search-bar-bg: #f2ebce; --search-bar-bg-hover: #f2ebce;
 }
 
-/* =============================================================
- *  BASE STYLES
- *  ============================================================= */
-
 html, body {
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
@@ -144,10 +130,6 @@ body::after { content: none; }
   transition: outline-offset 0.2s var(--ease-out-quart);
 }
 
-/* =============================================================
- *  LOGO STYLES - Unified colors for all pages
- *  ============================================================= */
-
 .logo-container .logo,
 .results-logo,
 header .logo,
@@ -158,7 +140,6 @@ header .logo,
   filter: none;
 }
 
-/* Dark theme colors - unified for both pages with !important */
 .logo-container .logo span:nth-child(1),
 .results-logo span:nth-child(1),
 header .logo span:nth-child(1),
@@ -189,7 +170,6 @@ header .logo span:nth-child(5),
 header .logo span:nth-child(6),
 .logo span:nth-child(6) { color: #e69875 !important; }
 
-/* Light theme colors - unified for both pages with !important */
 [data-everforest-variant^="light"] .logo-container .logo span:nth-child(1),
 [data-everforest-variant^="light"] .results-logo span:nth-child(1),
 [data-everforest-variant^="light"] header .logo span:nth-child(1),
@@ -220,10 +200,6 @@ header .logo span:nth-child(6),
 [data-everforest-variant^="light"] header .logo span:nth-child(6),
 [data-everforest-variant^="light"] .logo span:nth-child(6) { color: #f57d26 !important; }
 
-/* =============================================================
- *  HEADER & LAYOUT
- *  ============================================================= */
-
 .header {
   background: transparent;
   border-bottom: none;
@@ -236,10 +212,6 @@ header .logo span:nth-child(6),
   border-bottom: 1px solid var(--border);
   transition: border-color 0.3s ease;
 }
-
-/* =============================================================
- *  SEARCH BAR
- *  ============================================================= */
 
 .search-bar,
 .results-search-bar {
@@ -313,10 +285,6 @@ header .logo span:nth-child(6),
   }
 }
 
-/* =============================================================
- *  SEARCH BUTTON (Arrow - SVG version)
- *  ============================================================= */
-
 .search-submit-btn,
 .results-search-bar button[type="submit"] {
   background: transparent;
@@ -332,13 +300,11 @@ header .logo span:nth-child(6),
   position: relative;
 }
 
-/* Hide original SVG */
 .search-submit-btn svg,
 .results-search-bar button[type="submit"] svg {
   display: none !important;
 }
 
-/* Arrow icon */
 .search-submit-btn::before,
 .results-search-bar button[type="submit"]::before {
   content: '';
@@ -352,7 +318,6 @@ header .logo span:nth-child(6),
   display: block;
 }
 
-/* Hover - slide right */
 .search-submit-btn:hover::before,
 .results-search-bar button[type="submit"]:hover::before {
   transform: translateX(3px);
@@ -374,10 +339,6 @@ header .logo span:nth-child(6),
 [data-everforest-variant^="light"] .results-search-bar button[type="submit"]::before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%235c6a72' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3Cpolyline points='12 5 19 12 12 19'%3E%3C/polyline%3E%3C/svg%3E");
 }
-
-/* =============================================================
- *  BUTTONS
- *  ============================================================= */
 
 .search-btn,
 .lucky-btn,
@@ -432,10 +393,6 @@ header .logo span:nth-child(6),
   display: flex;
   gap: 1rem;
 }
-
-/* =============================================================
- *  SEARCH RESULTS
- *  ============================================================= */
 
 .result-item {
   background: transparent;
@@ -519,8 +476,6 @@ header .logo span:nth-child(6),
   transition: color 0.3s ease;
 }
 
-/* ── Favicons (Bigger & Rounded) ─────────────────────────────── */
-
 img.result-favicon {
   width: 22px !important;
   height: 22px !important;
@@ -539,7 +494,6 @@ img.result-favicon {
   border-color: var(--primary);
 }
 
-/* Engine Tags */
 .result-engine-tag {
   border-radius: 999px !important;
   padding: 0.25rem 0.75rem !important;
@@ -563,10 +517,6 @@ img.result-favicon {
   color: #ffffff !important;
 }
 
-/* =============================================================
- *  TABS (Fixed - only green line)
- *  ============================================================= */
-
 .results-tabs {
   border-top: none;
   position: relative;
@@ -582,13 +532,11 @@ img.result-favicon {
   box-shadow: none !important;
 }
 
-/* Remove any default bottom borders */
 .results-tab.active {
   border-bottom: none !important;
   box-shadow: none !important;
 }
 
-/* Only green indicator line */
 .results-tab::after {
   content: '';
   position: absolute;
@@ -619,10 +567,6 @@ img.result-favicon {
   color: var(--primary);
   font-weight: 600;
 }
-
-/* =============================================================
- *  PAGINATION
- *  ============================================================= */
 
 .pagination {
   display: flex;
@@ -666,10 +610,6 @@ img.result-favicon {
   transform: translateY(-1px) scale(0.98);
 }
 
-/* =============================================================
- *  CARDS (Glance, Knowledge Panel, etc.)
- *  ============================================================= */
-
 .glance-box,
 .knowledge-panel,
 .result-card {
@@ -708,7 +648,6 @@ img.result-favicon {
   opacity: 1;
 }
 
-/* Autocomplete Dropdown */
 .ac-dropdown {
   background: var(--bg-light);
   border: none;
@@ -747,10 +686,6 @@ img.result-favicon {
   transform: scaleY(1);
 }
 
-/* =============================================================
- *  SETTINGS & HEADER LINKS
- *  ============================================================= */
-
 .settings-gear,
 .header-link {
   transition: all 0.4s var(--ease-out-back);
@@ -784,10 +719,6 @@ img.result-favicon {
   transform: scale(1.02);
 }
 
-/* =============================================================
- *  SCROLLBAR
- *  ============================================================= */
-
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -810,17 +741,11 @@ img.result-favicon {
   border-width: 1px;
 }
 
-/* Firefox */
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--border) var(--bg);
 }
 
-/* =============================================================
- *  ANIMATIONS
- *  ============================================================= */
-
-/* Entrance Animations */
 @keyframes ef-fadein-up {
   from {
     opacity: 0;
@@ -893,7 +818,6 @@ img.result-favicon {
   }
 }
 
-/* Apply Animations */
 .logo-container .logo {
   animation: ef-fadein-scale 0.6s var(--ease-out-expo) both;
 }
@@ -932,7 +856,6 @@ img.result-favicon {
   transform: translateX(8px) translateY(-2px);
 }
 
-/* Staggered delays for results */
 .result-item:nth-child(1)  { animation-delay: 0.05s; }
 .result-item:nth-child(2)  { animation-delay: 0.10s; }
 .result-item:nth-child(3)  { animation-delay: 0.15s; }
@@ -957,7 +880,6 @@ img.result-favicon {
   animation: ef-fadein-up 0.3s var(--ease-out-quart) both;
 }
 
-/* Floating animation for interactive elements */
 .search-btn:hover,
 .lucky-btn:hover,
 .pagination button:hover {
@@ -968,10 +890,6 @@ img.result-favicon {
 *:focus-visible {
   animation: ef-pulse-glow 2s ease-in-out;
 }
-
-/* =============================================================
- *  ACCESSIBILITY - Reduced Motion
- *  ============================================================= */
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
@@ -987,10 +905,6 @@ img.result-favicon {
     transform: none !important;
   }
 }
-
-/* =============================================================
- *  MOBILE RESPONSIVE
- *  ============================================================= */
 
 @media (max-width: 768px) {
   .search-bar,
@@ -1023,7 +937,6 @@ img.result-favicon {
   }
 }
 
-/* Loading Skeleton Animation */
 @keyframes shimmer {
   0% {
     background-position: -200% 0;
